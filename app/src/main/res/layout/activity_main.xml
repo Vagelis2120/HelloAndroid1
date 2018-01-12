@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RootLinear"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <LinearLayout
+        style="@style/FirstNestedLinear"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ChooseText"
+            android:text="@string/choose" />
+
+        <ImageView
+            style="@style/UdacityImage"
+            android:src="@drawable/udacity" />
+
+        <LinearLayout
+            style="@style/HorizontalLinear"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/EducationText"
+                android:text="@string/education" />
+
+            <TextView
+                style="@style/PriorityText"
+                android:text="@string/priority" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SecondNestedLinear"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/ElearningImage"
+            android:src="@drawable/elearning" />
+
+        <TextView
+            style="@style/InfoTexts"
+            android:text="@string/udacity" />
+
+        <TextView
+            style="@style/InfoTexts"
+            android:text="@string/adress" />
+
+        <TextView
+            style="@style/InfoTexts"
+            android:text="@string/location" />
+
+        <TextView
+            style="@style/InfoTexts"
+            android:text="@string/phone" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
